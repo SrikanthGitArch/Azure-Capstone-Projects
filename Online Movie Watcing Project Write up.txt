@@ -1,0 +1,22 @@
+Deploying an Online Movie Watching Application on Cloud.
+DESCRIPTION
+You are working in an online entertainment provider company. As you have knowledge of cloud computing, you are asked to deploy the company’s website on cloud.
+ 
+Background of the problem statement:
+You work for Binge Watch Online, an online entertainment provider company.
+You have created a website for the company and used a public cloud to deploy the website. After deploying it on cloud, users are complaining about the reloading speed of the pages. The website is getting global traffic and static assets like pages that are served from a single server. You need to make sure that the traffic coming to the website from different parts of the world is load balanced at the DNS level.
+You can use either Azure or AWS platforms to design the solution using IaaS OR PaaS.
+ 
+Either if the below resources can be used , here we are using Azure Stack
+•	AWS: Route 53, S3 Bucket, CloudFront, EC2
+•	Azure: Azure App Service, CDN, DNS, Azure VM, Azure Traffic Manager
+ 
+You have been asked to:
+1.	Suggest an appropriate solution so that your company can make use of the cloud while keeping the requirements mentioned above for your company in mind
+2.	Provide an approach to:
+a. Govern all the resources being used for development, testing, and production of the company’s website
+b. Keep a separate track of the billing life cycle and cost management of all the services being used for hosting the company’s website on Cloud
+3.	Upload all static content of your web site to cloud
+4.	Create a CDN endpoint and configure it to serve the static files you have uploaded
+5.	Use storage service and upload files for your teammates to share
+6.	Connect a Windows or Linux VM to the Storage service
